@@ -1,0 +1,23 @@
+
+
+h1 {
+	padding:0 20px 0 20px;	
+}
+
+li {
+	list-style-type:none;
+	float:left;
+}
+li a {
+	padding:5px 10px 5px 10px;
+}
+
+header {
+	border-bottom:1px solid black !important;	
+}
+
+#search {
+	position:absolute;
+	right: 10px;
+	top: 10px;	
+}

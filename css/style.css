@@ -114,8 +114,46 @@ footer {
 	height: 40px;
 }
 
+.chat_box {
+	width: 100%;
+	height: 150px;
+	background-color: #FFF;
+	display: block;
+	margin-bottom: 5px;
+	overflow: scroll;
+}
+.chat_box p {
+	margin: 0 2px 2px 2px;
+}
+.chat_input {
+	width: 70%;
+	display: block;
+}
+.chat_submit {
+	height: 21px;
+	padding-top: 2px;
+	width: 25%;
+	display: block;
+	background-color:#333333;
+	color: #fff !important;
+	text-align: center;
+	text-decoration: none;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+
+.green_txt {
+	color: #090;
+}
+.blue_txt {
+	color: #03C;
+}
 /*-------- jQuery UI --------*/
 
 .ui-widget {
 	font-size: 14px;
+}
+.ui-accordion-content {
+	padding: 5px !important;
 }

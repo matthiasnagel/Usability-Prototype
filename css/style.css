@@ -67,23 +67,6 @@ li a {
 	position:absolute;	
 }
 
-#chat {
-	top:0px;
-	width:250px;
-	height:100%;
-	right:0px;
-	position:absolute;
-	border-left:1px solid black;
-}
-#chatFooter {
-	height: 20px;
-	width: 250px;
-	position:absolute;
-	bottom:0px;
-	border-top:1px solid black;
-	padding:10px;
-	font-size:20px;
-}
 header {
 	position:relative;
 	width:100%;
@@ -100,4 +83,39 @@ footer {
 	position:absolute;
 	right: 10px;
 	top: 10px;	
+}
+
+/*-------- Chat --------*/
+
+#chat {
+	top:0px;
+	width:250px;
+	height:100%;
+	right:0px;
+	position:absolute;
+	background-color: #CCC;
+	border-left:1px solid black;
+}
+#chatFooter {
+	height: 20px;
+	width: 250px;
+	position:absolute;
+	bottom:0px;
+	border-top:1px solid black;
+	padding:10px;
+	font-size:20px;
+}
+.chat_headline h3 {
+	margin: 10px 5px 5px 5px;
+	padding: 0;
+}
+.chat_headline img {
+	width: 40px;
+	height: 40px;
+}
+
+/*-------- jQuery UI --------*/
+
+.ui-widget {
+	font-size: 14px;
 }

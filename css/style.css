@@ -149,6 +149,45 @@ footer {
 .blue_txt {
 	color: #03C;
 }
+
+/*-------- upload --------*/
+
+.upload_box {
+	margin: 10px;
+	float: left;
+	height: 450px;
+	width: 26%;
+	display: block;
+	border: 1px solid #000;
+}
+.upload_box p {
+	font-size: 14px;
+	padding: 5px;
+	margin: 0;
+}
+
+#upload_course_box {
+	margin-left: 10px;
+	display: none;
+}
+#upload_button {
+	display: none;
+	margin: 200px 10px;
+	height: 50px;
+}
+#upload_button h3 {
+	padding-left: 10px;
+}
+#upload_input_box {
+	display: none;
+}
+#upload_input1 {
+	height: 400px;
+}
+#upload_input2 {
+	margin: 5px;
+}
+
 /*-------- jQuery UI --------*/
 
 .ui-widget {

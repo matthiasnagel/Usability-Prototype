@@ -33,3 +33,23 @@ var chat = {
     	}, 1000);
 	}
 }
+
+var upload = {
+	isOpen : false,
+	openCourses : function() {
+		if(upload.isOpen == false) {
+			$('#upload_course_box').css('display','block');
+			upload.isOpen = true;
+		}else {
+			$('#upload_course_box').css('display','none');
+			upload.isOpen = false;
+		}
+	},
+	showInput : function() {
+		$('#upload_input_box').css('display','block');
+		$('#upload_button').css('display','block');
+	},
+	showButton : function() {
+		$('#upload_button').css('display','block');
+	}
+}

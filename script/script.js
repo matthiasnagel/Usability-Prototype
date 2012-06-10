@@ -51,5 +51,12 @@ var upload = {
 	},
 	showButton : function() {
 		$('#upload_button').css('display','block');
+	},
+	clickButton : function() {
+		var output = $('#upload_input1');
+		output.html('<img src="Images/ajax-loader.gif"/>');
+		setTimeout(function() {
+        	output.html('<p>Hochladen erfolgreich!</p>');
+    	}, 1000);
 	}
 }

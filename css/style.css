@@ -183,6 +183,12 @@ footer {
 }
 #upload_input1 {
 	height: 400px;
+	color: #0C0;
+}
+#upload_input1 img {
+	margin: 150px 0 0 -16px;
+	padding-left: 50%;
+	text-align: center;
 }
 #upload_input2 {
 	margin: 5px;
